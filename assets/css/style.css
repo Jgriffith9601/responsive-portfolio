@@ -1,0 +1,382 @@
+body {
+	background-color: #ffffff;
+
+}
+
+.center-box {
+	width: 1475px;
+	margin: 0 auto;
+	height: 600px;
+	background-image: url(../images/dust_scratches.png);
+	border-top: 2px solid #cccccc;
+	padding-top: 20px;
+
+}
+
+.content-div {
+	
+	position: absolute;
+	left: 257.5px;
+	width: 690px;
+	height: 570px;
+	background-color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+
+	
+}
+.inner-content {
+	position: absolute;
+	padding-top: 25px;
+	left: 35px;
+	width: 600px;
+	height: 425px;
+	background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	
+}
+h1 {
+	color: #4aaaa5;
+	padding: 10px 0px 20px 35px;
+	font-size: 25px;
+
+
+}
+
+h2 {
+	color: #4aaaa5;
+	padding: 10px 0px 20px 20px;
+	font-size: 20px;
+
+
+}
+#about-me {
+
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	
+
+}
+#about-me2 {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+}
+#mypic {
+	height: 40%;
+	width: 30%;
+	float: left;
+	padding-right: 10px;
+
+}
+#githublogo {
+	height: 25%;
+	width: 25%;
+	padding-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+#linkedinlogo {
+	height: 25%;
+	width: 25%;
+	padding-left: 10px;
+	float: left;
+	margin-top: 10px;
+}
+
+#stackoverflowlogo {
+	height: 25%;
+	width: 25%;
+	padding-left: 10px;
+	float: left;
+	margin-top: 10px;
+}
+
+.sidebar {
+	
+	background-color: #ffffff;
+	width: 260px;
+	position: absolute;
+	left: 980px;
+	height: 165px;
+
+}
+.sidebar-2 {
+	background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	width: 230px;
+	position: absolute;
+	left: 15px;
+	height: 103px;
+	padding-top: 10px;
+
+}
+.header-1 {
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 150px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.links {
+	background-color: #ffffff;
+	width: 260px;
+	height: 75px;
+	position: absolute;
+	left: 980px;
+	top: 75px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 20px;
+	
+	
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 115px;
+	position: absolute;
+	left: 257.7px;
+	top: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+	font-size: 30px;
+
+
+}
+.footer {
+background-color: #666666;
+bottom: 0;
+width: 1475px;
+height: 75px;
+text-align: center;
+vertical-align: middle:;
+line-height: 55px;
+border-top: 10px solid #4aaaa5;
+margin: 0 auto;
+
+
+}
+#link1 {
+
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: .5px solid #cccccc;
+	color: #777777;
+	text-decoration: none;
+
+}
+#link2 {
+
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+	color: #777777;
+
+
+}
+#link3 {
+
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: .5px solid #cccccc;
+	color: #777777;
+	text-decoration: none;
+
+}
+@media screen and (max-width: 980px) {
+   .name {
+   	position: absolute;
+   	left: 145px;
+   }
+
+
+   .center-box {
+   	height: 775px;
+   }
+   .content-div {
+   		position: absolute;
+	left: 150px;
+	width: 690px;
+	height: 570px;
+	background-color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   }
+  .links {
+  		background-color: #ffffff;
+	width: 260px;
+	height: 75px;
+	position: absolute;
+	left: 500px;
+	top: 75px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 20px;
+	
+  }
+  .sidebar {
+  		background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	width: 230px;
+	position: absolute;
+	left: 150px;
+	top: 750px;
+	height: 50px;
+	padding-top: 10px;
+	}
+  .sidebar-2 {
+  	position: absolute;
+  	left: 0px;
+  	top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+	.name {
+		background-color: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 115px;
+	position: absolute;
+	left: 50px;
+	top: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+	font-size: 30px;
+	}
+.links {
+		background-color: #ffffff;
+	width: 260px;
+	height: 75px;
+	position: absolute;
+	left: 350px;
+	top: 75px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 20px;
+	
+	}
+	.sidebar {
+		background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	width: 230px;
+	position: absolute;
+	left: 255px;
+	top: 750px;
+	height: 10px;
+	padding-top: 10px;
+	}
+	.footer {
+		background-color: #666666;
+position: absolute;
+bottom: -300px;
+width: 1475px;
+height: 75px;
+text-align: center;
+vertical-align: middle:;
+line-height: 55px;
+border-top: 10px solid #4aaaa5;
+
+
+	}
+	.content-div {
+
+	position: absolute;
+	padding-top: 25px;
+	left: 75px;
+	width: 600px;
+	height: 425px;
+	background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+}
+.inner-content {
+	position: absolute;
+	padding-top: 25px;
+	left: 0px;
+	width: 600px;
+	height: 475px;
+	background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	
+}
+}
+@media screen and (max-width: 640px){
+	.name {
+		background-color: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 115px;
+	position: absolute;
+	left: 75px;
+	top: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+	font-size: 30px;
+	}
+.links {
+		background-color: #ffffff;
+	width: 260px;
+	height: 75px;
+	position: absolute;
+	left: 75px;
+	top: 120px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+	font-size: 20px;
+	
+	}
+	.sidebar {
+		background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	width: 230px;
+	position: absolute;
+	left: 255px;
+	top: 750px;
+	height: 10px;
+	padding-top: 10px;
+	}
+	.footer {
+		background-color: #666666;
+position: absolute;
+bottom: -300px;
+width: 1475px;
+height: 75px;
+text-align: center;
+vertical-align: middle:;
+line-height: 55px;
+border-top: 10px solid #4aaaa5;
+
+
+	}
+	.content-div {
+
+	position: absolute;
+	padding-top: 25px;
+	left: 75px;
+	width: 600px;
+	height: 425px;
+	background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+}
+.inner-content {
+	position: absolute;
+	padding-top: 25px;
+	left: 0px;
+	width: 600px;
+	height: 475px;
+	background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+	
+}
+}
